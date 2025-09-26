@@ -104,7 +104,7 @@ public class MusicOrganizer
     
     if(found == false) {
         System.out.println("No tracks found for artist: " + artist);
-    }
+        }
     }
    
       

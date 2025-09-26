@@ -57,7 +57,27 @@ public void listMatching(String searchString)
        }
    }
     
+27.
 
+public void playSamplesBy(String artist)
+   {
+       boolean found = false;
     
+    for(String filename : files) {
+        if(filename.contains(artist)) {
+            player.playSample(filename);
+            found = true;
+        }
+    }
+    
+    if(found == false) {
+        System.out.println("No tracks found for artist: " + artist);
+    }
+}
+ 
+28.
+for (Track songfile : trackList)
+
+   
     
     
